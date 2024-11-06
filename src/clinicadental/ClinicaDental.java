@@ -5,9 +5,9 @@ public class ClinicaDental {
 
    
     public static void main(String[] args) {
-         Inicio Inicio;
-        Inicio = new Inicio();
-        Inicio.setVisible(true);
+         Crear_usuario Crear_usuario;
+        Crear_usuario = new Crear_usuario();
+        Crear_usuario.setVisible(true);
     }
     
 }

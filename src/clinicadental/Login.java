@@ -194,7 +194,9 @@ public class Login extends javax.swing.JFrame {
     }//GEN-LAST:event_jToggleButton2ActionPerformed
 
     private void IngresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IngresarActionPerformed
-        
+        Inicio In= new Inicio();
+            In.setVisible(true);
+          dispose();
     }//GEN-LAST:event_IngresarActionPerformed
 
     /**

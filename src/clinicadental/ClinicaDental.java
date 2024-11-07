@@ -8,6 +8,7 @@ public class ClinicaDental {
          Login Login;
         Login = new Login();
         Login.setVisible(true);
+        Login.setLocationRelativeTo(null);
     }
     
 }

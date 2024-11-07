@@ -12,7 +12,7 @@ public class Metodo {
     
 
 
-public static boolean Insertar(persona x) {
+public static boolean Insertar(persona x) throws SQLException {
     Connection con = conexiondb.conectar();
     PreparedStatement ps = null;
     String sql = "INSERT INTO clientes (Nombre, Telefono, DPI, Correo   ) VALUES (?,?,?,?,?)";

@@ -55,6 +55,11 @@ public class Inicio extends javax.swing.JFrame {
 
         jButton3.setBackground(new java.awt.Color(102, 255, 255));
         jButton3.setText("Registrar paciente");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
         jButton4.setBackground(new java.awt.Color(102, 255, 255));
         jButton4.setText("Crear cita");
@@ -140,6 +145,12 @@ public class Inicio extends javax.swing.JFrame {
             Inf.setVisible(true);
             dispose();
     }//GEN-LAST:event_Informacion_1ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        Crear_usuario Ca= new Crear_usuario();
+            Ca.setVisible(true);
+            dispose();
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments
